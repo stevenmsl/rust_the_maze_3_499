@@ -182,6 +182,7 @@ impl Solution {
           continue;
         }
         let mut index = 0;
+        /* loop until you find the first different char */
         while index < path.len() && index < s_path.len() {
           if path[index] == s_path[index] {
             index += 1;
